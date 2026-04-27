@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cinematic HTML Slides</title>
+  <link rel="stylesheet" href="./css/cinematic-slides.css">
+</head>
+<body class="theme-solar-pop">
+  <main id="deck" class="deck" aria-live="polite">
+    <div id="canvas" class="canvas">
+      <section class="step layout-cover" data-x="0" data-y="0" data-scale="1" data-transition="random">
+        <div class="mega-icon kinetic" data-icon="spark"></div>
+        <p class="eyebrow">Cinematic deck</p>
+        <h1>Replace With Your Topic</h1>
+        <p class="lede">Write a sharp promise for the audience. Keep it concrete and visual.</p>
+        <div class="badge-row">
+          <span class="badge">Spatial</span>
+          <span class="badge">Animated</span>
+          <span class="badge">Browser-ready</span>
+        </div>
+      </section>
+
+      <section class="step layout-split" data-x="1300" data-y="-200" data-z="-180" data-scale="0.95" data-rotate="8" data-transition="swoop">
+        <div>
+          <p class="eyebrow">Signal</p>
+          <h2>Turn the first major idea into a strong claim</h2>
+          <p class="lede">Use the user's notes, source material, or topic to build a concise narrative.</p>
+        </div>
+        <div class="visual-frame tilt-card">
+          <div class="mega-icon" data-icon="rocket"></div>
+        </div>
+      </section>
+
+      <section class="step layout-bento" data-x="2600" data-y="420" data-z="220" data-scale="1.08" data-rotate="-10" data-transition="dive">
+        <p class="eyebrow">Three-part structure</p>
+        <h2>Mix layouts on every few slides</h2>
+        <div class="card-grid">
+          <article class="card pop-in"><strong>Context</strong><span>What changed?</span></article>
+          <article class="card pop-in"><strong>Tension</strong><span>Why does it matter?</span></article>
+          <article class="card pop-in"><strong>Move</strong><span>What should happen next?</span></article>
+        </div>
+      </section>
+
+      <section class="step layout-close" data-x="1300" data-y="1500" data-scale="1" data-rotate="16" data-transition="spin">
+        <div class="mega-icon glow-pulse" data-icon="target"></div>
+        <p class="eyebrow">Final frame</p>
+        <h2>End with one memorable sentence</h2>
+      </section>
+    </div>
+  </main>
+
+  <div class="hud" aria-hidden="true">
+    <span id="slide-count">1 / 1</span>
+    <span>Space / Arrows / Wheel / O</span>
+  </div>
+
+  <script src="./js/cinematic-slides.js"></script>
+</body>
+</html>
